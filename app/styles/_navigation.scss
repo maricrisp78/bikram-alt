@@ -1,18 +1,35 @@
 .navbar {
+  
+  height: 100px; 
   margin-bottom: 0;
   border-radius: 0;
-//  font-family: 'Poiret One', sans-serif;
-  font-family: 'Droid Serif', serif;
+  font-family: 'Poiret One', sans-serif;
+//  font-family: 'Droid Serif', serif;
   font-size: 18px;
 
-  .navbar-header {
+
+  .navbar-right a{
+    background-color: gray;
+    border-radius: 10px;
+    margin: 7px;
+    margin-top: 25px
+    
+  }
+
+  }
+
+  .navbar-nav a{
+    color: purple;
+
+    }
 
     #logo {
       background-image: url('../images/orangeTiger.png');
-      background-size: cover;
-      width: 110px;
-      height: 50px;
-      margin: 0;
+      background-size: 200px;
+      background-repeat: no-repeat;
+       padding: 40px; 
+      margin: 10;
+      margin-left: 15px;
     }
 
     #logo-text {
